@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80404EB31DAC04BF00F94254 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80404EB21DAC04BF00F94254 /* AppDelegate.swift */; };
+		80404EB51DAC04BF00F94254 /* StartActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80404EB41DAC04BF00F94254 /* StartActivityViewController.swift */; };
+		80404EB81DAC04BF00F94254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80404EB61DAC04BF00F94254 /* Main.storyboard */; };
+		80404EBA1DAC04BF00F94254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80404EB91DAC04BF00F94254 /* Assets.xcassets */; };
+		80404EBD1DAC04BF00F94254 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80404EBB1DAC04BF00F94254 /* LaunchScreen.storyboard */; };
+		80404EC51DAC055800F94254 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80404EC41DAC055800F94254 /* ActivityViewController.swift */; };
+		80569A6D1DC79CCC00DC56C5 /* CountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80569A6C1DC79CCC00DC56C5 /* CountdownViewController.swift */; };
+		8066490A1DC8FC0C00B9A1A9 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 806649091DC8FC0C00B9A1A9 /* back.png */; };
+		8066490E1DC9070800B9A1A9 /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 8066490D1DC9070800B9A1A9 /* flag.png */; };
+		8067B6E51DC0E7A00085F043 /* PresetViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8067B6E41DC0E7A00085F043 /* PresetViewProtocol.swift */; };
+		80AB58381DC38F70002BA43C /* pause.ico in Resources */ = {isa = PBXBuildFile; fileRef = 80AB58361DC38F70002BA43C /* pause.ico */; };
+		80AB58391DC38F70002BA43C /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 80AB58371DC38F70002BA43C /* stop.png */; };
+		80AB583B1DC3AE4E002BA43C /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 80AB583A1DC3AE4E002BA43C /* play.png */; };
+		80EE7C361DB663B200FAF270 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE7C351DB663B200FAF270 /* Activity.swift */; };
+		80EE7C381DB9198000FAF270 /* PresetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE7C371DB9198000FAF270 /* PresetListViewController.swift */; };
+		80EE7C3A1DB9199100FAF270 /* PresetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE7C391DB9199100FAF270 /* PresetViewController.swift */; };
+		80EE7C3E1DB922F400FAF270 /* PresetEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE7C3D1DB922F400FAF270 /* PresetEditView.swift */; };
+		80EE7C461DBFC1A000FAF270 /* PresetEditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80EE7C451DBFC19F00FAF270 /* PresetEditView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80404EAF1DAC04BF00F94254 /* HIIT Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HIIT Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80404EB21DAC04BF00F94254 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80404EB41DAC04BF00F94254 /* StartActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartActivityViewController.swift; sourceTree = "<group>"; };
+		80404EB71DAC04BF00F94254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80404EB91DAC04BF00F94254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80404EBC1DAC04BF00F94254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80404EBE1DAC04BF00F94254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80404EC41DAC055800F94254 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		80569A6C1DC79CCC00DC56C5 /* CountdownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownViewController.swift; sourceTree = "<group>"; };
+		806649091DC8FC0C00B9A1A9 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		8066490D1DC9070800B9A1A9 /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
+		8067B6E41DC0E7A00085F043 /* PresetViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresetViewProtocol.swift; sourceTree = "<group>"; };
+		80AB58361DC38F70002BA43C /* pause.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = pause.ico; sourceTree = "<group>"; };
+		80AB58371DC38F70002BA43C /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		80AB583A1DC3AE4E002BA43C /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		80EE7C351DB663B200FAF270 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		80EE7C371DB9198000FAF270 /* PresetListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresetListViewController.swift; sourceTree = "<group>"; };
+		80EE7C391DB9199100FAF270 /* PresetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresetViewController.swift; sourceTree = "<group>"; };
+		80EE7C3D1DB922F400FAF270 /* PresetEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PresetEditView.swift; path = ../PresetEditView.swift; sourceTree = "<group>"; };
+		80EE7C451DBFC19F00FAF270 /* PresetEditView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresetEditView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80404EAC1DAC04BF00F94254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80404EA61DAC04BF00F94254 = {
+			isa = PBXGroup;
+			children = (
+				80404EB11DAC04BF00F94254 /* HIIT Timer */,
+				80404EB01DAC04BF00F94254 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80404EB01DAC04BF00F94254 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80404EAF1DAC04BF00F94254 /* HIIT Timer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80404EB11DAC04BF00F94254 /* HIIT Timer */ = {
+			isa = PBXGroup;
+			children = (
+				804DB2D01DC791D100D02F16 /* Images */,
+				80404EB21DAC04BF00F94254 /* AppDelegate.swift */,
+				80404EB41DAC04BF00F94254 /* StartActivityViewController.swift */,
+				80EE7C351DB663B200FAF270 /* Activity.swift */,
+				80404EB61DAC04BF00F94254 /* Main.storyboard */,
+				80569A6C1DC79CCC00DC56C5 /* CountdownViewController.swift */,
+				8067B6E41DC0E7A00085F043 /* PresetViewProtocol.swift */,
+				80EE7C451DBFC19F00FAF270 /* PresetEditView.xib */,
+				80EE7C371DB9198000FAF270 /* PresetListViewController.swift */,
+				80EE7C3D1DB922F400FAF270 /* PresetEditView.swift */,
+				80EE7C391DB9199100FAF270 /* PresetViewController.swift */,
+				80404EC41DAC055800F94254 /* ActivityViewController.swift */,
+				80404EB91DAC04BF00F94254 /* Assets.xcassets */,
+				80404EBB1DAC04BF00F94254 /* LaunchScreen.storyboard */,
+				80404EBE1DAC04BF00F94254 /* Info.plist */,
+			);
+			path = "HIIT Timer";
+			sourceTree = "<group>";
+		};
+		804DB2D01DC791D100D02F16 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				80AB58361DC38F70002BA43C /* pause.ico */,
+				80AB583A1DC3AE4E002BA43C /* play.png */,
+				806649091DC8FC0C00B9A1A9 /* back.png */,
+				8066490D1DC9070800B9A1A9 /* flag.png */,
+				80AB58371DC38F70002BA43C /* stop.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80404EAE1DAC04BF00F94254 /* HIIT Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80404EC11DAC04BF00F94254 /* Build configuration list for PBXNativeTarget "HIIT Timer" */;
+			buildPhases = (
+				80404EAB1DAC04BF00F94254 /* Sources */,
+				80404EAC1DAC04BF00F94254 /* Frameworks */,
+				80404EAD1DAC04BF00F94254 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HIIT Timer";
+			productName = "HIIT Timer";
+			productReference = 80404EAF1DAC04BF00F94254 /* HIIT Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80404EA71DAC04BF00F94254 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = LuisMachado;
+				TargetAttributes = {
+					80404EAE1DAC04BF00F94254 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MJHBLUH3VK;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 80404EAA1DAC04BF00F94254 /* Build configuration list for PBXProject "HIIT Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80404EA61DAC04BF00F94254;
+			productRefGroup = 80404EB01DAC04BF00F94254 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80404EAE1DAC04BF00F94254 /* HIIT Timer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80404EAD1DAC04BF00F94254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AB583B1DC3AE4E002BA43C /* play.png in Resources */,
+				80404EBD1DAC04BF00F94254 /* LaunchScreen.storyboard in Resources */,
+				8066490E1DC9070800B9A1A9 /* flag.png in Resources */,
+				80AB58381DC38F70002BA43C /* pause.ico in Resources */,
+				80404EBA1DAC04BF00F94254 /* Assets.xcassets in Resources */,
+				8066490A1DC8FC0C00B9A1A9 /* back.png in Resources */,
+				80EE7C461DBFC1A000FAF270 /* PresetEditView.xib in Resources */,
+				80404EB81DAC04BF00F94254 /* Main.storyboard in Resources */,
+				80AB58391DC38F70002BA43C /* stop.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80404EAB1DAC04BF00F94254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80EE7C381DB9198000FAF270 /* PresetListViewController.swift in Sources */,
+				80EE7C3E1DB922F400FAF270 /* PresetEditView.swift in Sources */,
+				80EE7C3A1DB9199100FAF270 /* PresetViewController.swift in Sources */,
+				80569A6D1DC79CCC00DC56C5 /* CountdownViewController.swift in Sources */,
+				8067B6E51DC0E7A00085F043 /* PresetViewProtocol.swift in Sources */,
+				80404EB51DAC04BF00F94254 /* StartActivityViewController.swift in Sources */,
+				80404EC51DAC055800F94254 /* ActivityViewController.swift in Sources */,
+				80EE7C361DB663B200FAF270 /* Activity.swift in Sources */,
+				80404EB31DAC04BF00F94254 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80404EB61DAC04BF00F94254 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80404EB71DAC04BF00F94254 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80404EBB1DAC04BF00F94254 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80404EBC1DAC04BF00F94254 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80404EBF1DAC04BF00F94254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80404EC01DAC04BF00F94254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80404EC21DAC04BF00F94254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MJHBLUH3VK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+				);
+				INFOPLIST_FILE = "HIIT Timer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luis-machado.hiit-timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		80404EC31DAC04BF00F94254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MJHBLUH3VK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+					"$(PROJECT_DIR)/HIIT\\ Timer",
+				);
+				INFOPLIST_FILE = "HIIT Timer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luis-machado.hiit-timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80404EAA1DAC04BF00F94254 /* Build configuration list for PBXProject "HIIT Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80404EBF1DAC04BF00F94254 /* Debug */,
+				80404EC01DAC04BF00F94254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80404EC11DAC04BF00F94254 /* Build configuration list for PBXNativeTarget "HIIT Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80404EC21DAC04BF00F94254 /* Debug */,
+				80404EC31DAC04BF00F94254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80404EA71DAC04BF00F94254 /* Project object */;
+}
